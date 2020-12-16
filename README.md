@@ -43,7 +43,7 @@ Similar organisations do already exist and a similar project has been found afte
 - find the information about different coffee flavours depending on their origin ("Map Of Flavours" page)
 - learn about different ways of coffee making and explore recipes ("Perfect Cup" page)
 - join the cork coffee club ("Cork Coffee Club" page)
-- from the footer links to the websites of the partners and sponsors, social media pages as well as contact details will be available.  //////
+- from the footer links to the websites of the partners and sponsors, social media pages as well as contact details will be available.
 
 **The Scope Plane**
 
@@ -89,7 +89,7 @@ Color palette of the website consists of brown colour shades, black and white co
 
 Home, History, Perfect Cup and Cork Coffee Club pages have similarly positioned paragraphs to make the wesbite browsing more intuitive for the users. 
 
-////// < ## Features
+Features
 
 ### Existing Features
 As our main goal is to promote the local coffee roasters and build a community, the most important features of the website will be as follows:
@@ -114,7 +114,7 @@ THIRD RELEASE
 - gift cards
 - gift wrapping option
 - diy kits (where a customer would be able to customize their own kit or hamper and get a discount)
-- coffee rentals (rental of various coffee equipment) > //
+- coffee rentals (rental of various coffee equipment)
 
 ## Technologies Used
 

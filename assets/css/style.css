@@ -211,3 +211,194 @@ header {
 }
 /* end of Burger Menu */
 /* end of HEADER */
+
+
+/* MAIN CONTENT STYLE */
+ 
+section {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(210, 166, 121);
+}
+
+/* video styling principle was taken from https://www.ostraining.com/blog/coding/responsive-videos/#!/ccomment-page=3 with the idea on how to center the video by Sage Adams */
+.video {
+    height: 50%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border: rgb(210, 166, 121);
+}
+.video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    border-radius: 70px 20px;
+}
+
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    border: rgb(210, 166, 121);
+}
+ 
+.container a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.container a:hover {
+    text-decoration: none;
+    color: #ffffff;
+    -webkit-box-shadow: 5px 5px 10px #6d502c;
+            box-shadow: 5px 5px 10px #6d502c;
+    padding: 3px;
+    border-radius: 70px 20px;
+}
+
+.flavours {
+ display: none;
+}
+ 
+.responsive-image {
+ background: no-repeat center center;
+ padding: 20px;
+ max-width: 100%;
+ height: auto;
+}
+ 
+@media screen and (max-width: 1024px) {
+  .flavours {
+   display: block;
+ }
+ 
+.country-flavour {
+   text-align: center;
+   padding: 10px;
+   color: rgb(55, 40, 21);
+}
+}
+ 
+#club-info {
+   height: auto;
+   margin-bottom: 10px;
+   padding: 10px;
+   width: 100%;
+   overflow: hidden;
+   position: relative;
+}
+
+#form {
+    padding: 10px;
+}
+
+.signup-form {
+   margin: 10px;
+   text-align: center;
+   background-color: rgb(210, 166, 121);
+   z-index: 1;
+}
+
+.signup-form div {
+    text-align: left;
+}
+
+#inputName3:focus {
+    border: 1px solid #6d502c;
+    outline: #6d502c;
+    -webkit-box-shadow: 0 0 10px #6d502c;
+            box-shadow: 0 0 10px #6d502c;
+}
+
+#inputEmail3:focus {
+    border: 1px solid #6d502c;
+    outline: #6d502c;
+    -webkit-box-shadow: 0 0 10px #6d502c;
+            box-shadow: 0 0 10px #6d502c;
+}
+
+.signup-form {
+   margin: 10px;
+   text-align: center;
+   background-color: rgb(210, 166, 121);
+   z-index: 1;
+}
+
+.signup-form div {
+    text-align: left;
+}
+
+/* radio buttons styling was borrowed from http://code.iamkate.com/html-and-css/styling-checkboxes-and-radio-buttons/#pureCSS and adjusted to the Cork Coffee Club style */
+input[type=radio   ]:not(old){
+  width     : 2em;
+  margin    : 0;
+  padding   : 0;
+  font-size : 1em;
+  opacity   : 0;
+}
+
+input[type=radio   ]:not(old) + label{
+  display      : inline-block;
+  margin-left  : -45px;
+  line-height  : 1.5em;
+}
+
+input[type=radio   ]:not(old) + label > span{
+  display          : inline-block;
+  width            : 0.875em;
+  height           : 0.875em;
+  margin           : 0.25em 0.5em 0.25em 0.25em;
+  border           : 0.0625em solid rgb(192,192,192);
+  border-radius    : 0.25em;
+  background       : #ffffff;
+  background-image :      -o-linear-gradient(#ffffff);
+  background-image :         -webkit-gradient(linear, left top, left bottom, from(#ffffff));
+  background-image :         linear-gradient(#ffffff);
+  vertical-align   : bottom;
+}
+
+input[type=radio   ]:not(old):checked + label > span{
+  background-image :      -o-linear-gradient(rgb(224,224,224),rgb(240,240,240));
+  background-image :         -webkit-gradient(linear,left top, left bottom,from(rgb(224,224,224)),to(rgb(240,240,240)));
+  background-image :         linear-gradient(rgb(224,224,224),rgb(240,240,240));
+}
+
+input[type=radio]:not(old):checked + label > span > span{
+  display          : block;
+  width            : 0.5em;
+  height           : 0.5em;
+  margin           : 0.125em;
+  border           : 0.0625em solid #6d502c;
+  border-radius    : 0.125em;
+  background       : #916a3b;
+  background-image :      -o-linear-gradient(#bc915c,#916a3b);
+  background-image :         -webkit-gradient(linear,left top, left bottom,from(#bc915c),to(#916a3b));
+  background-image :         linear-gradient(#bc915c,#916a3b);
+}
+
+/* end of borrowed radio buttons style */
+
+.btn {
+  background-color: rgb(115, 77, 38);
+  border: none;
+  padding: 10px 20px;
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  -webkit-transition-duration: 0.4s;
+       -o-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+}
+
+.btn:hover {
+  background-color: #efb875;
+  color: #ffffff;
+}
+ 
+/* end of MAIN CONTENT */

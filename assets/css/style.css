@@ -1,0 +1,213 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+*{
+   margin:0;
+   padding:0;
+   border:0;
+}
+
+body {
+   font-family: Courier;
+   background-color: rgb(210, 166, 121);
+}
+
+html, body {
+ height: 100%;
+ margin: 0;
+}
+
+h3 {
+   text-align: center;
+   margin-top: 5px;
+   text-transform: uppercase;
+   color: rgb(115, 77, 38);
+   font-size: 28px;
+}
+
+h4 {
+   text-align: center;
+   text-transform: uppercase;
+   color: rgb(115, 77, 38);
+   font-size: 20px;
+}
+
+/* HEADER STYLE */
+
+header {
+   background-color: rgb(235, 217, 199);
+}
+
+/* --- The below Flexbox method was taken from the following Hubspot resource https://blog.hubspot.com/website/center-div-css#:~:text=To%20center%20a%20div%20horizontally%20on%20a%20page%2C%20simply%20set,equally%20between%20the%20two%20margins --- */
+ 
+.header-logo {
+ margin : -5px 0 0 0;
+ height: 100%;
+ background-color: rgb(235, 217, 199);
+ display: -webkit-box;
+ display: -ms-flexbox;
+ display: flex;
+ -webkit-box-align: center;
+     -ms-flex-align: center;
+         align-items: center;
+}
+
+/* end of Flexbox */
+ 
+.header-image {
+ padding: 10px;
+ float : left;
+ text-align: center;
+}
+
+.header-title {
+ font-size: 18px;
+ width: 40px;
+ padding-top: 5px;
+ float : left;
+ color: rgb(115, 77, 38);
+}
+
+#menu {
+  list-style-type: none;
+  text-align: center;
+  margin: 0 auto;
+  left: 0px;
+  right: 0px;
+}
+
+#menu li {
+  font-size: 14px;
+  margin-left: 90px;
+  display: inline;
+  margin-right: 30px;
+}
+
+#menu a {
+  text-decoration: none;
+  color: #7f5d34;
+
+}
+ 
+#menu a:hover {
+    -webkit-box-shadow: 5px 5px 10px #6d502c;
+            box-shadow: 5px 5px 10px #6d502c;
+    padding: 5px 10px 5px 10px;
+    border-radius: 70px 20px;
+    font-size: 110%;
+ }
+
+.active{
+    border-bottom: 1px solid rgb(73, 54, 29);
+}
+ 
+/* Below Burger Menu principle was borrowed from https://medium.com/@anonymousgoose0/how-to-create-a-responsive-burger-menu-step-by-step-1afb353a0af1 and adjusted to the current website needs and styles */
+ 
+.main-nav {
+   text-align: center;
+}
+.nav-links {
+ display: -webkit-box;
+ display: -ms-flexbox;
+ display: flex;
+ -ms-flex-pack: distribute;
+     justify-content: space-around;
+}
+
+.burger {
+ display: none;
+ cursor: pointer;
+ }
+
+.line {
+ height: 2px;
+ width: 35px;
+ margin: 0.5rem 0;
+ background: #6d502c;
+ -webkit-transition: opacity 0.75s ease, -webkit-transform 0.75s ease;
+ transition: opacity 0.75s ease, -webkit-transform 0.75s ease;
+ -o-transition: transform 0.75s ease, opacity 0.75s ease;
+ transition: transform 0.75s ease, opacity 0.75s ease;
+ transition: transform 0.75s ease, opacity 0.75s ease, -webkit-transform 0.75s ease;
+}
+ 
+@media screen and (max-width: 1024px) {
+  .header-logo {
+   width: 100%;
+   float: left;
+}
+ 
+ .nav-links {
+   width: 70%;
+   z-index: 2;
+ }
+ 
+.main-nav.show .line1 {
+ -webkit-transform: translate(-10px) rotate(45deg) translate(15px);
+     -ms-transform: translate(-10px) rotate(45deg) translate(15px);
+         transform: translate(-10px) rotate(45deg) translate(15px);
+}
+.main-nav.show .line2 {
+ opacity: 0;
+}
+.main-nav.show .line3 {
+ -webkit-transform: translate(-10px) rotate(-45deg) translate(15px);
+     -ms-transform: translate(-10px) rotate(-45deg) translate(15px);
+         transform: translate(-10px) rotate(-45deg) translate(15px);
+}
+.main-nav.show .nav-links {
+ -webkit-transform: translateX(0%);
+     -ms-transform: translateX(0%);
+         transform: translateX(0%);
+}
+
+#menu li {
+    margin-left: 0;
+}
+
+@media screen and (max-width: 1393px) {
+  .burger {
+   display: block;
+   position: fixed;
+   right: 30px;
+ }
+ 
+ .nav-links {
+   position: fixed;
+   top: 8vh;
+   right: 0;
+   height: 70vh;
+   width: 70%;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+       -ms-flex-direction: column;
+           flex-direction: column;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+   -ms-flex-pack: distribute;
+       justify-content: space-around;
+   background: #e9dac9;
+   -webkit-transform: translateX(120%);
+       -ms-transform: translateX(120%);
+           transform: translateX(120%);
+   -webkit-transition: -webkit-transform 1s ease;
+   transition: -webkit-transform 1s ease;
+   -o-transition: transform 1s ease;
+   transition: transform 1s ease;
+   transition: transform 1s ease, -webkit-transform 1s ease;
+   -webkit-box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
+           box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
+ }
+
+ #menu li {
+    margin-left: 0;
+}
+}
+}
+/* end of Burger Menu */
+/* end of HEADER */

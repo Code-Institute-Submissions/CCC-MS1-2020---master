@@ -160,7 +160,7 @@ Website appears to work well in other browsers (i.e Google Chrome, Safari, Firef
 
 The project had to be rewritten from scratch in order to allow more frequent commits. More frequents commits will be ensured for future releases.
 
-!!!!!!!!!!!!!
+To access the live website, please follow the [link](https://olga-od-ua.github.io/CCC-MS1-2020---master/).
 
 ## Credits
 

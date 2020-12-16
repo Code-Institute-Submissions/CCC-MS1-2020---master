@@ -402,3 +402,88 @@ input[type=radio]:not(old):checked + label > span > span{
 }
  
 /* end of MAIN CONTENT */
+
+/* FOOTER STYLE */
+
+.content {
+  min-height: calc(100vh - 70px);
+}
+.footer {
+  height: 50px;
+}
+
+ h5 {
+   margin-left: 30px;
+   font-size: 17px;
+   color: rgb(115, 77, 38);
+   text-align: center;
+}
+
+.sponsor-logos {
+   margin: 10px;
+}
+
+img[src*="starbucks"] {
+    border-radius: 50%;
+    border: 1px solid #6d502c;
+    height: 100px;
+    width: 100px;
+    margin: 2px;
+}
+
+img[src*="tchibo"] {
+    border: 1px solid #6d502c;
+    height: 100px;
+    width: 100px;
+    margin: 2px;
+    
+}
+
+img[src*="insomnia"] {
+    border: 1px solid #6d502c;
+    height: 100px;
+    width: 100px;
+    margin: 2px;
+}
+img[src*="illy"] {
+    border: 1px solid #6d502c;
+    height: 100px;
+    width: 100px;
+    margin: 2px;
+
+}
+
+img[src*="costa"] {
+    border-radius: 50%;
+    border: 1px solid #6d502c;
+    height: 100px;
+    width: 100px;
+    margin: 2px;
+}
+
+.row {
+   text-align: center;
+}   
+ 
+/* Social Networks principle was taken from the course materials, namely, the LOVE RUNNING project */
+.social-networks{
+   text-align: center;
+}
+ 
+.social-networks li {
+   display: inline;
+}
+ 
+.social-networks i {
+   font-size: 160%;
+   margin: 1%;
+   padding: 5%;
+   color: #6d502c;
+}
+ 
+.contacts, .copyright {
+   text-align: center;
+   color: #6d502c;
+   margin: 20px;
+}
+/* End of FOOTER*/

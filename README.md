@@ -154,6 +154,8 @@ In this section, you should mention all of the languages, frameworks, libraries,
 BUGS
 Cork Coffee Club page. The form does not allow any input, the radio buttons and the sign-up button do not respond to any action. The bug was fixed by splitting the main content into two separate sections: one wiht the four text columns and the other with the form itself.
 
+Images only load onto the live webstie with the following path: assets/images/image.jpg.
+
 Website appears to work well in other browsers (i.e Google Chrome, Safari, Firefox)
 
 ## Deployment

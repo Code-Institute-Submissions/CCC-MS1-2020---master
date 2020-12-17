@@ -191,6 +191,27 @@ To access the live website, please follow the [link](https://olga-od-ua.github.i
 
 Images only load onto the live webstie with the following path: assets/images/image.jpg.
 
+### Cloning 
+
+1. On GitHub, navigate to the main page of the repository.
+
+2. Above the list of files, click "Code".
+
+3. To clone the repository using HTTPS, under "Clone with HTTPS", click "Clipboard Icon". To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click Use SSH, then click "Clipboard Icon". To clone a repository using GitHub CLI, click Use GitHub CLI, then click "Clipboard Icon".
+
+4. The clipboard icon for copying the URL to clone a repository
+
+5. The clipboard icon for copying the URL to clone a repository with GitHub CLI
+Open Terminal.
+
+6. Change the current working directory to the location where you want the cloned directory.
+
+7. Type git clone, and then paste the URL you copied earlier.
+
+$ git clone https://github.com/olga-od-ua/CCC-MS1-2020---master
+
+8. Press Enter to create your local clone.
+
 ## Credits
 
 ### Content
